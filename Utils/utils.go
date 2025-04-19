@@ -9,7 +9,7 @@ type ListNode struct {
 }
 
 // 构建链表
-func buildList(nums []int) *ListNode {
+func BuildList(nums []int) *ListNode {
 	dummy := &ListNode{}
 	curr := dummy
 	for _, v := range nums {
@@ -20,7 +20,7 @@ func buildList(nums []int) *ListNode {
 }
 
 // 打印链表
-func printList(head *ListNode) {
+func PrintList(head *ListNode) {
 	for head != nil {
 		fmt.Print(head.Val)
 		if head.Next != nil {
