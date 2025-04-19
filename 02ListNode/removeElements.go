@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/TonyNee/carlRecommend/00Utils"
+	"github.com/TonyNee/carlRecommend/Utils"
 )
 
 func removeElements(head *ListNode, val int) *ListNode {
